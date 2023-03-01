@@ -1,1 +1,48 @@
 @import '/src/assets/scss/colors.scss';
+
+.search {
+    margin-top: 100px;
+
+    .brand {
+        margin: 0;
+
+        .name {
+            text-align: center;
+            font-size: 72px;
+            font-weight: 100;
+
+            img {
+                width: 5%;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .search{
+        .brand{
+            .name {
+                font-size: 67px;
+                
+                img {
+                    width: 10%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .search{
+        .brand{
+            .name {
+                font-size: 52px;
+                
+                img {
+                    width: 12%;
+                }
+            }
+        }
+    }
+}
+
