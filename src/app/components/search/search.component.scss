@@ -1,13 +1,1 @@
-.search-bg {
-    background: url("../../../assets/search/search-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: left;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    min-height: 100vh;
-    max-height: 100vh;
-    overflow: hidden;
-}
+@import '/src/assets/scss/colors.scss';
